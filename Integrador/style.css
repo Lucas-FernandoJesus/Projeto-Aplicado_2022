@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:white;
+}
+
+img{
+
+    width: 85%;
+    height: 92%;
+    margin-top: 10px;
+    margin-left: 12%;
+    padding: 30px;
+}
+
+form{
+
+    background-color: white;
+    margin-top: 410px;
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    position : absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.login{
+
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    position : absolute;
+    left: 27%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+}
+
+form h1{
+
+    text-align: center;
+    color: #1a73e8;
+}
+
+form input[type=text],
+form input[type=password],
+form input[type=email],
+form input[type=number],
+form input[type=double],
+form input[type=varchar]{
+
+    width: 100%;
+    height: 32px;
+    border: 1px solid #ccc;
+    padding-left: 24px;
+    margin: 10px 0;
+    border-radius: 20px;
+}
+
+form input[id=submit] {
+
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+    background: #1a73e8;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+/*Style Menu*/
+
+.modal{
+
+    width: 254px;
+}
+
+#Bars{
+    margin-left: 10px;
+    color: dark;
+}
+
+.modal-content{
+    width: 300px;
+    height: 250px;
+}
+
+.modal-header{
+
+    background-color: black;
+    margin-top: 50px;
+}
+
+.modal-title{
+
+    color: white;
+}
+
+.exampleModalLabel{
+    height: 200px;
+    width: 300px;
+}
+
+#side_nav{
+    background: black;
+    min-width: 100%;
+    max-width: 300px;
+    height: auto;
+    transition: all 0.3s;
+}
+
+.content{
+    min-height: 100vh;
+    width: 50%;
+}
+
+hr .h-color{
+    background: #eee;
+}
+
+.sidebar li.active{
+    background: #eee;
+    border-radius: 8px;
+}
+
+.sidebar li a{
+    color: #fff;
+}
+
+.container-fluid{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: end;
+}
+
+
+
+/* Pessoa */
+
+.container{
+    width:80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.212);
+}
+
+.form-header h1::after{
+
+    content: '';
+    display: block;
+    width: 29rem;
+    height: 0.3rem;
+    background-color: #1a73e8;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+#cadastro{
+    margin-top: 340px;
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    position : absolute;
+    transform: translate(-50%,-50%);
+}
+
+#equipamento{
+    margin-top: 290px;
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    position : absolute;
+    transform: translate(-50%,-50%);
+}
+
+.input-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.;
+    margin-bottom: 1.2 rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.input-box input:hover{
+    background-color: #eeeeee75;
+}
+
+.input-box input:focus-visible{
+    outline: 1px solid #1a73e8;
+}
+
+.input-box label,
+.gender-title h6{
+
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000c0 ;
+}
+
+.input-box input::placeholder{
+    color: #000000be;
+}
+
+.gender-group{
+
+    display: flex;
+    justify-content: space-between;
+    border-radius: 500px;
+    margin-top: 0.62rem;
+    padding: 0 0 .5rem;
+}
+
+.gender-input{
+    display: flex;
+    align-items: center;
+}
+
+.gender-input input{
+    margin-right: 0.35rem;
+}
+
+.gender-input label{
+
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.continue-button button{
+
+    width: 100%;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: #1a73e8;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+/*Busca de pessoa*/
+
+.form-pessoa{
+
+        margin-top: 95px;
+        max-width: 500px;
+        width: 100%;
+        padding: 20px;
+        position : relative;
+        left: 521px;
+        right: 50%;
+        transform: translate(-50%,-56%);
+}
+
+.form-pesquisa{
+    margin-top: 65px;
+    
+}
+
+.resultado-pessoa{
+    width: 50%;
+    margin-left: 300px;
+    margin-top : 100px;
+}
+
+.form-pesquisa [id=submit] {
+
+    width: 30%;
+    height: 30px;
+    cursor: pointer;
+    background: #1a73e8;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.form-cadastrar [name="Cadastrar"] {
+
+    width: 30%;
+    height: 30px;
+    cursor: pointer;
+    background: #1a73e8;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    transition: 1s;
+    margin-left: 35%;
+}
+
+#c{
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+    background: #1a73e8;
+    border-radius: 20px;
+    color: white;
+}
+
+#estados{
+
+    width: 100%;
+    height: 32px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+#relatorio{
+
+    margin-top: 280px;
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    position : relative;
+    left: 700px;
+    right: 50%;
+    transform: translate(-50%,-56%);
+}
+
+#table{
+
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+}
+
+
+
+/*pessoa*/
+@media screen and (max-width:1330px){
+
+    .container{
+        width: 50%;
+    }
+    .form{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1064px){
+    .container{
+        width: 90%;
+        height: auto;
+    }
+    .input-group{
+        flex-direction: column;
+        overflow-y:scroll;
+        flex-wrap: nowrap;
+        max-height: 10rem;
+        padding-right: 5rem;
+    }
+    .gender-input{
+        margin-top: 2rem;
+    }
+    .gender-group{
+        flex-direction: column;
+    }
+    .gender-inputs{
+        margin-top: 2rem;
+    }
+}
+
+/*Menu Responsivo*/
+@media(max-width : 767px){
+
+    #sidebar_nav{
+        margin-left: -250px;
+        position: fixed;
+        min-height: 100vh;
+        z-index: 1;
+    }
+    #side_nav.active{
+        margin-left: 0;
+    }
+}
